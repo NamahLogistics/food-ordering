@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #fafafa;
+}
+
+.header {
+  padding: 12px;
+  background: black;
+  color: white;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-card {
+  padding: 10px;
+}
+
+.cart-btn {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
